@@ -60,3 +60,4 @@ El sitio es 100% responsive:
 - **Textos:** Edita directamente en `index.html`
 - **Fuentes:** Cambia los Google Fonts en el `<head>` del HTML
 - **Imágenes:** Reemplaza los archivos en `images/`
+.
