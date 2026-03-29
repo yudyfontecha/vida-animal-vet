@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Paw pad (heart shape) -->
+  <path d="M100 170c-12-12-68-55-68-98a30 30 0 0160 0h16a30 30 0 0160 0c0 43-56 86-68 98z" fill="#78C3C8" opacity=".9"/>
+  <!-- Toe beans -->
+  <circle cx="62" cy="38" r="22" fill="#78C3C8" opacity=".65"/>
+  <circle cx="138" cy="38" r="22" fill="#78C3C8" opacity=".65"/>
+  <circle cx="35" cy="85" r="17" fill="#78C3C8" opacity=".45"/>
+  <circle cx="165" cy="85" r="17" fill="#78C3C8" opacity=".45"/>
+  <!-- Heart in center -->
+  <path d="M100 130c-2-2-22-16-22-30a10 10 0 0120 0h4a10 10 0 0120 0c0 14-20 28-22 30z" fill="#E6BE46" opacity=".85"/>
+</svg>
