@@ -1336,3 +1336,61 @@ footer {
   .admin-panel { max-width: 100%; border-radius: 0; max-height: 100vh; }
   .cart-panel { max-width: 100%; }
 }
+
+/* ================================
+   GATOS EN CASA (Visitas a domicilio)
+   ================================ */
+.cat-home {
+  position: relative;
+  padding: 100px 0;
+  background: linear-gradient(135deg, var(--turq-900) 0%, #14373F 100%);
+  color: #fff;
+  overflow: hidden;
+}
+.cat-home .s-label { color: var(--gold-400); }
+.cat-home .s-title { color: #fff; }
+.cat-home .s-title span { color: var(--turq-400); }
+.cat-home .s-desc { color: rgba(255,255,255,.78); max-width: 640px; }
+.cathome-header { text-align: center; margin-bottom: 56px; }
+.cathome-header .s-label { justify-content: center; }
+.cathome-header .s-desc { margin: 0 auto; }
+.cathome-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.cathome-item {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(120,195,200,.25);
+  border-radius: 16px;
+  padding: 28px 22px;
+  text-align: center;
+  transition: transform .3s ease, background .3s ease;
+}
+.cathome-item:hover {
+  transform: translateY(-6px);
+  background: rgba(255,255,255,.1);
+}
+.cathome-icon { font-size: 34px; margin-bottom: 14px; }
+.cathome-item h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--gold-400);
+}
+.cathome-item p { font-size: 14px; color: rgba(255,255,255,.75); line-height: 1.6; }
+.cathome-cta { text-align: center; }
+.cathome-tagline {
+  margin-top: 16px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
+  color: var(--turq-400);
+}
+@media (max-width: 900px) {
+  .cathome-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 540px) {
+  .cathome-grid { grid-template-columns: 1fr; }
+  .cat-home { padding: 70px 0; }
+}
